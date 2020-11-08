@@ -1,0 +1,36 @@
+.hi {
+  background: red;
+}
+
+.hi:hover {
+  background: linear-gradient(blue, white);
+  position: relative;
+  top: 10px;
+}
+
+.likeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 20px;
+  height: 10px;
+  padding: 20px 40px;
+  background: gray;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+.likeButton:hover {
+  background: blue;
+}
+
+.likeButton:active {
+  opacity: 0;
+}
+
+.likeText {
+  color: white;
+  margin: 5px;
+}
